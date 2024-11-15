@@ -45,17 +45,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('🎬Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🎬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎖Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('❤ᘻᓍᐺᓰᘿS❤', url='https://t.me/+5S3F2eObHCQ1NTJl')
+                    InlineKeyboardButton('🎖Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/+5S3F2eObHCQ1NTJl')
                 ],[
-                  InlineKeyboardButton('🎖 Premium Group🎖', url='https://t.me/+xH1cMoDAA6JiZGNl')
+                  InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ɢʀᴏᴜᴘ', url='https://t.me/+xH1cMoDAA6JiZGNl')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAKJjWc274AM-EkeEdqJpoYDpTPZ_rETAALlEQACWDGwVexrwpCMAUyHNgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
