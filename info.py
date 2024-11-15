@@ -21,9 +21,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6495773759:AAHMKNEGwjST3UApSCyByXnU8bTxK1l
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/9d8f20e07b82d4f2bed98.jpg https://telegra.ph/file/2f0fecb9901702c7b033e.jpg https://telegra.ph/file/ca650ca9ca926ce076397.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/9d8f20e07b82d4f2bed98.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
+PICS = (environ.get('PICS', 'https://ar-hosting.pages.dev/1731651149424.jpg https://ar-hosting.pages.dev/1731651184148.jpg https://ar-hosting.pages.dev/1731651214327.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://ar-hosting.pages.dev/1731651149424.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://ar-hosting.pages.dev/1731651214327.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
@@ -57,8 +57,8 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nNxrEiZPumNlMjBl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/psycobotz')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ezpzsupport/6')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/purplebotz')
+TUTORIAL = environ.get('TUTORIAL', '')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001748572062'))
