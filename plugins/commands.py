@@ -47,12 +47,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎖Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('𝟷𝟾+🔞', url='https://telegra.ph/DESI-18-VIDEOS-01-18')
+                    InlineKeyboardButton('ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ', url="https://t.me/+ylvI8ZZcge80MWRl"),
+                    InlineKeyboardButton('𝟷𝟾+ ᴄᴏɴᴛᴇɴᴛ', url='https://telegra.ph/DESI-18-VIDEOS-01-18')
                 ],[
-                  InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ɢʀᴏᴜᴘ💛', url='https://t.me/+xH1cMoDAA6JiZGNl')
+                  InlineKeyboardButton('ᴀᴅᴍɪɴ', url='https://t.me/Lordsakunaa')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAKJjWc274AM-EkeEdqJpoYDpTPZ_rETAALlEQACWDGwVexrwpCMAUyHNgQ") 
