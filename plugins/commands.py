@@ -48,9 +48,9 @@ async def start(client, message):
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🎖Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/+5S3F2eObHCQ1NTJl')
+                    InlineKeyboardButton('𝟷𝟾+🔞', url='https://telegra.ph/DESI-18-VIDEOS-01-18')
                 ],[
-                  InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ɢʀᴏᴜᴘ', url='https://t.me/+xH1cMoDAA6JiZGNl')
+                  InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ɢʀᴏᴜᴘ💛', url='https://t.me/+xH1cMoDAA6JiZGNl')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
@@ -154,10 +154,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🎖 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🎖", url="https://t.me/+5S3F2eObHCQ1NTJl")
+                                InlineKeyboardButton("18+ ᴄᴏɴᴛᴇɴᴛ", url="https://telegra.ph/DESI-18-VIDEOS-01-18")
                             ],
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -173,9 +173,9 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                         InlineKeyboardButton("🎖 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🎖", url="https://t.me/+5S3F2eObHCQ1NTJl")
+                         InlineKeyboardButton("𝟷𝟾+ ᴄᴏɴᴛᴇɴᴛ", url="https://telegra.ph/DESI-18-VIDEOS-01-18")
                          ],[ 
-                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -266,7 +266,9 @@ async def start(client, message):
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
-                    ]
+                    ], [
+                        InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                    ]    
                 ]
             )
         )
@@ -287,7 +289,9 @@ async def start(client, message):
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
-                    ]
+                    ], [
+                        InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                    ]    
                 ]
             )
         )
@@ -334,11 +338,11 @@ async def start(client, message):
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                     [
-                      InlineKeyboardButton("🎖 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🎖", url="https://t.me/+5S3F2eObHCQ1NTJl")
+                    [
+                      InlineKeyboardButton("18+ ᴄᴏɴᴛᴇɴʏ", url="https://t.me/+5S3F2eObHCQ1NTJl")
                      ],
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -369,7 +373,9 @@ async def start(client, message):
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
                             InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
-                        ]
+                        ], [
+                            InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                        ]    
                     ]
                 )
             )
