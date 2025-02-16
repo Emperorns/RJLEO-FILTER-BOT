@@ -260,14 +260,14 @@ async def start(client, message):
         chat_id = int("-" + file_id.split("-")[1])
         userid = message.from_user.id if message.from_user else None
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
-        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>❗𝗡𝗢𝗧𝗘❗: - ᴄᴏᴘʏ ᴀʙᴏᴠᴇ ʟɪɴᴋ ᴀɴᴅ ᴏᴘᴇɴ ɪᴛ ᴏɴ ᴄʜʀᴏᴍᴇ ʙʀᴏᴡsᴇʀ.\n - ɪғ ʟɪɴᴋ ɴᴏᴛ ᴏᴘᴇɴs ᴜsᴇ ᴀɴʏ 𝗩𝗣𝗡🛡 \n ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ɪɴ 𝟻 ᴍɪɴᴜᴛᴇs.\n</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ], [
-                        InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                        InlineKeyboardButton('💛ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
                     ]    
                 ]
             )
@@ -283,14 +283,14 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>🍿Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n✌Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>❗𝗡𝗢𝗧𝗘❗: - ᴄᴏᴘʏ ᴀʙᴏᴠᴇ ʟɪɴᴋ ᴀɴᴅ ᴏᴘᴇɴ ɪᴛ ɪɴ ᴄʜʀᴏᴍᴇ ʙʀᴏᴡsᴇʀ.\n - ɪғ ʟɪɴᴋ ɴᴏᴛ ᴏᴘᴇɴ ᴜsᴇ ᴠᴘɴ🛡.\n\nThis message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ], [
-                        InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                        InlineKeyboardButton('💛ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
                     ]    
                 ]
             )
@@ -339,7 +339,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                     [
-                      InlineKeyboardButton("18+ ᴄᴏɴᴛᴇɴʏ", url="https://t.me/+5S3F2eObHCQ1NTJl")
+                      InlineKeyboardButton("18+ ᴄᴏɴᴛᴇɴʏ🔞", url="https://telegra.ph/DESI-18-VIDEOS-01-18")
                      ],
                      [
                         InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -367,14 +367,14 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>🍿Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n✌Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>❗𝗡𝗢𝗧𝗘❗: - ᴄᴏᴘʏ ᴀʙᴏᴠᴇ ʟɪɴᴋ ᴀɴᴅ ᴏᴘᴇɴ ɪᴛ ɪɴ ᴄʜʀᴏᴍᴇ ʙʀᴏᴡsᴇʀ.\n - ɪғ ʟɪɴᴋ ɴᴏᴛ ᴏᴘᴇɴs ᴜsᴇ ᴀɴʏ 𝗩𝗣𝗡🛡.\n\nThis message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
                             InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                         ], [
-                            InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
+                            InlineKeyboardButton('💛ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ💛', url='https://telegra.ph/SORRY-You-are-not-premium-user-01-07') 
                         ]    
                     ]
                 )
@@ -406,17 +406,17 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton("🎖 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🎖", url="https://t.me/+5S3F2eObHCQ1NTJl")
+                      InlineKeyboardButton("18+ ᴄᴏɴᴛᴇɴᴛ 🔞", url="https://telegra.ph/DESI-18-VIDEOS-01-18")
                      ],
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@psycobotz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@public_botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -437,7 +437,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@psycobotz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '@public_botz  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -447,7 +447,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@psycobotz  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"@public_botz  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         buttons = [[
             InlineKeyboardButton("👉 Verify Yourself 👈", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
@@ -468,10 +468,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("🎖 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🎖", url="https://t.me/+5S3F2eObHCQ1NTJl")
+              InlineKeyboardButton("𝟷𝟾+ content🔞", url="https://telegra.ph/DESI-18-VIDEOS-01-18")
              ],
              [
-              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ | sᴛʀᴇᴀᴍ', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
